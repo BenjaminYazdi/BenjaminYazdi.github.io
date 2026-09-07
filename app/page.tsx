@@ -64,9 +64,14 @@ export default function Home() {
               />
             </div>
           </div>
+          <div className="interests-heading">
+            <span className="eyebrow">WHAT DRIVES MY WORK</span>
+            <p>These are the interests I bring to every project.</p>
+          </div>
           <div className="interests">
             <article>
               <span>01 /</span>
+              <p className="interest-kicker">MY INTEREST: DATA</p>
               <h2>Data</h2>
               <p>
                 Numbers, patterns, and the questions behind them. I enjoy
@@ -76,6 +81,7 @@ export default function Home() {
             </article>
             <article>
               <span>02 /</span>
+              <p className="interest-kicker">MY INTEREST: LOGIC</p>
               <h2>Logic</h2>
               <p>
                 From a mathematical argument to the rules behind a business
@@ -85,6 +91,7 @@ export default function Home() {
             </article>
             <article>
               <span>03 /</span>
+              <p className="interest-kicker">MY INTEREST: HUMAN CONNECTION</p>
               <h2>Human connection</h2>
               <p>
                 Talking with people, learning how they think, and sharing ideas.
