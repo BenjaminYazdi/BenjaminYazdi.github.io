@@ -16,9 +16,6 @@ export default function Home() {
           <a href="#work">Projects</a>
           <Link href="/videos/">Math videos</Link>
         </nav>
-        <a className="resume" href="/resume.pdf" target="_blank">
-          Résumé <ArrowUpRight size={16} />
-        </a>
       </header>
       <main>
         <section className="about-hero wrap" id="about">
@@ -46,16 +43,13 @@ export default function Home() {
                   them better.
                 </p>
                 <p>
-                  Three interests connect the things I do:{' '}
+                  My three main interests are:{' '}
                   <strong>data, logic, and human connection.</strong>
                 </p>
               </div>
               <div className="hero-actions">
                 <a className="button primary" href="#work">
                   See what I’m building <ArrowDown size={17} />
-                </a>
-                <a className="text-link" href="/resume.pdf" target="_blank">
-                  Read my résumé <ArrowUpRight size={17} />
                 </a>
               </div>
             </div>

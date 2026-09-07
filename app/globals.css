@@ -81,18 +81,12 @@ a {
   gap: 30px;
   font-size: 14px;
 }
-.resume,
 .text-link {
   display: inline-flex;
   gap: 10px;
   align-items: center;
   font-weight: 600;
   font-size: 14px;
-}
-.resume {
-  border: 1px solid #cbd2de;
-  border-radius: 6px;
-  padding: 10px 15px;
 }
 .hero {
   display: grid;
@@ -511,9 +505,6 @@ a:hover.text-link,
   .nav nav {
     gap: 16px;
     font-size: 13px;
-  }
-  .resume {
-    display: none;
   }
   .wordmark {
     font-size: 18px;

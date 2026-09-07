@@ -16,9 +16,7 @@ A static portfolio for benjaminyazdi.com. React, TypeScript and Vinext; no serve
 - `app/kaprekar-demo.tsx`: interactive four-digit Kaprekar example.
 - `scripts/prepare-static.mjs`: verifies both pages were exported and adds a directory index for the library.
 - `app/globals.css`: responsive design.
-- `public/resume.pdf`: supplied September 2026 résumé. It contains the previous GitHub username; the site links to BenjaminYazdi.
-
-The biography comes from the supplied résumé. Project descriptions were checked against the KaprekarConstant and shaggydog READMEs. LinkedIn could not be read. The website distinguishes the 350+ channel collection from the 343 videos imported into V1. Categories are based on titles and a review of ambiguous thumbnails; unclear lessons remain in Other explorations. Vor Finder can be added as a new project when ready; Mathematymar is intentionally omitted.
+The biography and experience copy come from the supplied résumé. Project descriptions were checked against the KaprekarConstant and shaggydog READMEs. LinkedIn could not be read. The website distinguishes the 350+ channel collection from the 343 videos imported into V1. Categories are based on titles and a review of ambiguous thumbnails; unclear lessons remain in Other explorations. Vor Finder can be added as a new project when ready; Mathematymar is intentionally omitted.
 
 Shaggy Dog is hosted separately on Render and requires a backend. The portfolio does not.
 
