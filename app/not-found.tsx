@@ -1,4 +1,3 @@
-import Link from 'next/link';
 export default function NotFound() {
   return (
     <main className="wrap section">
@@ -10,12 +9,12 @@ export default function NotFound() {
       </h1>
       <p>This page may have moved, or the address may be incomplete.</p>
       <div className="hero-actions">
-        <Link className="button primary" href="/">
+        <a className="button primary" href="/">
           Back to Benjamin’s portfolio
-        </Link>
-        <Link className="text-link" href="/videos/">
+        </a>
+        <a className="text-link" href="/videos/">
           Browse math videos →
-        </Link>
+        </a>
       </div>
     </main>
   );

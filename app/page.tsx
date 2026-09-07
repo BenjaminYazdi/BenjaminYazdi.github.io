@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowUpRight, ArrowDown, ArrowRight, Code2 } from 'lucide-react';
 import { KaprekarDemo } from './kaprekar-demo';
@@ -8,13 +7,13 @@ export default function Home() {
   return (
     <>
       <header className="nav wrap" id="top">
-        <Link className="wordmark" href="/">
+        <a className="wordmark" href="/">
           Benjamin Yazdi<span> / </span>
-        </Link>
+        </a>
         <nav aria-label="Main navigation">
           <a href="#about">About</a>
           <a href="#work">Projects</a>
-          <Link href="/videos/">Math videos</Link>
+          <a href="/videos/">Math videos</a>
         </nav>
       </header>
       <main>
@@ -223,23 +222,23 @@ export default function Home() {
                 one step at a time. Explore the library by topic and watch right
                 here.
               </p>
-              <Link className="button light" href="/videos/">
+              <a className="button light" href="/videos/">
                 Browse the video library <ArrowRight size={17} />
-              </Link>
+              </a>
             </div>
             <div className="teaching-topics">
-              <Link href="/videos/?category=Calculus">
+              <a href="/videos/?category=Calculus">
                 <span>01</span> Calculus <ArrowUpRight />
-              </Link>
-              <Link href="/videos/?category=Algebra">
+              </a>
+              <a href="/videos/?category=Algebra">
                 <span>02</span> Algebra <ArrowUpRight />
-              </Link>
-              <Link href="/videos/?category=Probability%20%26%20counting">
+              </a>
+              <a href="/videos/?category=Probability%20%26%20counting">
                 <span>03</span> Probability & counting <ArrowUpRight />
-              </Link>
-              <Link href="/videos/">
+              </a>
+              <a href="/videos/">
                 <span>↗</span> All topics <ArrowUpRight />
-              </Link>
+              </a>
             </div>
           </div>
         </section>
