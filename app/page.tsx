@@ -151,7 +151,6 @@ export default function Home() {
                 <a
                   className="text-link"
                   href={github + '/KaprekarConstant'}
-                  target="_blank"
                   rel="noreferrer"
                 >
                   Explore the code <ArrowUpRight size={17} />
@@ -190,7 +189,6 @@ export default function Home() {
                 <a
                   className="text-link"
                   href="https://shaggydog-bsl8.onrender.com/"
-                  target="_blank"
                   rel="noreferrer"
                 >
                   Try Shaggy Dog <ArrowUpRight size={17} />
@@ -199,7 +197,6 @@ export default function Home() {
                 <a
                   className="text-link"
                   href={github + '/shaggydog'}
-                  target="_blank"
                   rel="noreferrer"
                 >
                   View source <ArrowUpRight size={15} />
@@ -266,7 +263,6 @@ export default function Home() {
               <a
                 className="text-link"
                 href={github}
-                target="_blank"
                 rel="noreferrer"
               >
                 <Code2 size={18} /> GitHub <ArrowUpRight size={15} />
@@ -274,7 +270,6 @@ export default function Home() {
               <a
                 className="text-link"
                 href={linkedin}
-                target="_blank"
                 rel="noreferrer"
               >
                 LinkedIn <ArrowUpRight size={15} />
@@ -293,7 +288,6 @@ export default function Home() {
           <a
             className="text-link"
             href={linkedin}
-            target="_blank"
             rel="noreferrer"
           >
             Connect on LinkedIn <ArrowUpRight size={16} />

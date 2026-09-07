@@ -203,7 +203,6 @@ export function VideoLibrary() {
               <a
                 className="text-link"
                 href={'https://www.youtube.com/watch?v=' + active.id}
-                target="_blank"
                 rel="noreferrer"
               >
                 Watch on YouTube <ArrowUpRight size={16} />
