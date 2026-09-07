@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowUpRight, ArrowDown, ArrowRight, Code2 } from 'lucide-react';
 import { KaprekarDemo } from './kaprekar-demo';
 const github = 'https://github.com/BenjaminYazdi';
@@ -25,13 +26,30 @@ export default function Home() {
             <span className="status-dot" /> OPEN TO SOFTWARE ENGINEERING
             OPPORTUNITIES
           </div>
-          <div className="about-opening">
-            <div>
+          <div className="about-opening with-portrait">
+            <div className="about-copy">
               <h1>
                 Hi, I’m
                 <br />
                 <em>Benjamin Yazdi.</em>
               </h1>
+              <div className="about-story">
+                <p className="lead">
+                  I like coding, making projects, and turning an interesting
+                  question into something people can use.
+                </p>
+                <p>
+                  I’m a computer science student at Touro University. My work
+                  spans software engineering, research, and teaching
+                  mathematics. I enjoy understanding how things work, thinking
+                  through the details, and collaborating with people to make
+                  them better.
+                </p>
+                <p>
+                  Three interests connect the things I do:{' '}
+                  <strong>data, logic, and human connection.</strong>
+                </p>
+              </div>
               <div className="hero-actions">
                 <a className="button primary" href="#work">
                   See what I’m building <ArrowDown size={17} />
@@ -41,21 +59,15 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="about-story">
-              <p className="lead">
-                I like coding, making projects, and turning an interesting
-                question into something people can use.
-              </p>
-              <p>
-                I’m a computer science student at Touro University. My work
-                spans software engineering, research, and teaching mathematics.
-                I enjoy understanding how things work, thinking through the
-                details, and collaborating with people to make them better.
-              </p>
-              <p>
-                Three interests connect the things I do:{' '}
-                <strong>data, logic, and human connection.</strong>
-              </p>
+            <div className="portrait-frame">
+              <Image
+                src="/benjamin-yazdi.jpg"
+                alt="Benjamin Yazdi wearing a suit and tie"
+                width={817}
+                height={907}
+                priority
+                unoptimized
+              />
             </div>
           </div>
           <div className="interests">
